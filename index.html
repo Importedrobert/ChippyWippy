@@ -13,7 +13,7 @@
         <hr>
         <h3>Fill these in</h3>
         <label>Buy-in Amount</label>
-        <input type="number">
+        <input class="buy-in-amount" type="number">
         <form>Select Amount of Players
             <select>
                 <option>0</option>
@@ -29,23 +29,23 @@
         <hr>
         <svg height="100" width="100">
             <circle class="white-chip" cx="50" cy="50" r="40" fill="white" />
-            <text class="white-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+            <text id="whiteChipCount" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em"></text>
         </svg>
         <svg height="100" width="100">
             <circle class="red-chip" cx="50" cy="50" r="40" fill="red" />
-            <text class="red-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+            <text id="redChipCount" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em"></text>
         </svg>
         <svg height="100" width="100">
             <circle class="green-chip" cx="50" cy="50" r="40" fill="green" />
-            <text class="green-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+            <text id="greenChipCount" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em"></text>
         </svg>
         <svg height="100" width="100">
             <circle class="blue-chip" cx="50" cy="50" r="40" fill="blue" />
-            <text class="blue-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+            <text id="blueChipCount" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em"></text>
         </svg>
         <svg height="100" width="100">
             <circle class="black-chip" cx="50" cy="50" r="40" fill="black" />
-            <text class="black-chip-count" x="50%" y="50%" text-anchor="middle" fill="white" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+            <text id="blackChipCount" x="50%" y="50%" text-anchor="middle" fill="white" font-size="30px" font-family="Arial" dy=".3em"></text>
         </svg>
         <button class="calculate-button">Calculate</button>
         <button class="reset-button">Reset</button>
