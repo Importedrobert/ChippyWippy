@@ -37,5 +37,3 @@ function calculate() {
     alert(chipValueTotal);
 
 }
-
-print(chipValueTotal)
