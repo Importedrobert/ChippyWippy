@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+}
+
+.white-chip {
+    color: white;
+}
+
+.red-chip {
+    color: red;
+}
+
+.green-chip {
+    color: green;
+}
+
+.blue-chip {
+    color: blue;
+}
+
+.black-chip {
+    color: black;
+}
