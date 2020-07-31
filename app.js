@@ -4,7 +4,7 @@ const resetButtonSelector = document.querySelector(".reset-button");
 const buyInAmountSelector = document.querySelector(".buy-in-amount");
 
 // EVENT LISTENERS
-calculateButtonSelector.addEventListener("click", changetxt);
+calculateButtonSelector.addEventListener("click", calculate);
 resetButtonSelector.addEventListener("click", reset);
 
 // VARIABLES
@@ -15,7 +15,7 @@ const blueChipValue = .25;
 const blackChipValue = .50;
 
 // FUNCTIONS
-function changetxt() {
+function calculate() {
     var buyInAmount = Number(buyInAmountSelector.value);
 
     // document.getElementById('replace').innerHTML = "did it work?";
