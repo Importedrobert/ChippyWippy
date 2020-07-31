@@ -1,11 +1,12 @@
 // SELECTORS
 
 const calculateButtonSelector = document.querySelector(".calculate-button");
+const resetButtonSelector = document.querySelector(".reset-button");
 
 // EVENT LISTENERS
 
-calculateButtonSelector.addEventListener("click", changetxt)
-resetButtonSelector.addEventListener("click", reset)
+calculateButtonSelector.addEventListener("click", changetxt);
+resetButtonSelector.addEventListener("click", reset);
 
 // VARIABLES
 
@@ -14,11 +15,11 @@ resetButtonSelector.addEventListener("click", reset)
 
 function changetxt() {
 
-    document.getElementById('replace').innerHTML = "did it work?"
+    document.getElementById('replace').innerHTML = "did it work?";
 
 }
 function reset() {
 
-    document.getElementById('replace').innerHTML = " "
+    document.getElementById('replace').innerHTML = " ";
 
 }
