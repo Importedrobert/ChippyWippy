@@ -9,51 +9,52 @@
 </head>
 <body>
     <div class="main-container">
-    <h1>Poker Chip Calculator</h1>
-    <hr>
-    <br>
-    <h3>Fill these in</h3>
-    <br>
-    <br>
-    <br>
-    <label>Buy-in Amount</label>
-    <input type="number">
-    <br>
-    <br>
-    <form>Select Amount of Players
-        <select>
-    <option>0</option>
-    <option>1</option>
-    <option>2</option>
-    <option>3</option>
-    <option>4</option>
-    <option>5</option>
-    <option>6</option>
-    <option>7</option>
-    </select>   
-    </form>
-    <br>
-    <hr>
-    <br>
-    <label>White Chips Worth</label>
-    <input type="number">
-    <label>Red Chips Worth</label>
-    <input type="number">
-    <label>Green Chips Worth</label>
-    <input type="number">
-    <label>Blue Chips Worth</label>
-    <input type="number">
-    <label>Black Chips Worth</label>
-    <input type="number">
-    <button class="calculate-button">Calculate</button>
-    <br>
-    <button class="reset-button">Reset</button>
-    <br>
-    <hr>
-    <div classn="chip-amount">
-        <p class="element" id="replace">
-        </p>
+        <h1>Poker Chip Calculator</h1>
+        <hr>
+        <h3>Fill these in</h3>
+        <label>Buy-in Amount</label>
+        <input type="number">
+        <form>Select Amount of Players
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+            </select>   
+        </form>
+        <hr>
+        <svg height="100" width="100">
+            <circle class="white-chip" cx="50" cy="50" r="40" fill="white" />
+            <text class="white-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+        </svg>
+        <svg height="100" width="100">
+            <circle class="red-chip" cx="50" cy="50" r="40" fill="red" />
+            <text class="red-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+        </svg>
+        <svg height="100" width="100">
+            <circle class="green-chip" cx="50" cy="50" r="40" fill="green" />
+            <text class="green-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+        </svg>
+        <svg height="100" width="100">
+            <circle class="blue-chip" cx="50" cy="50" r="40" fill="blue" />
+            <text class="blue-chip-count" x="50%" y="50%" text-anchor="middle" fill="black" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+        </svg>
+        <svg height="100" width="100">
+            <circle class="black-chip" cx="50" cy="50" r="40" fill="black" />
+            <text class="black-chip-count" x="50%" y="50%" text-anchor="middle" fill="white" font-size="30px" font-family="Arial" dy=".3em">BC</text>
+        </svg>
+        <button class="calculate-button">Calculate</button>
+        <button class="reset-button">Reset</button>
+        <hr>
+        <div classn="chip-amount">
+            <p class="element" id="replace"></p>
+        </div>
     </div>
+
     <script src="./app.js"></script>
 </body>
 </html>
